@@ -1,6 +1,9 @@
 # Healthmate-Real Time Health Monitoring Dashboard
 
-Healthmate is a real-time web application made using ReactJS, NodeJS, ExpressJS, and MongoDB. The system utilizes an IoT device (Raspberry Pi) to collect vital data such as heart rate, oxygen saturation, body temperature from the patient and transmits the data to the Node server via WebSockets which is then displayed on the monitoring dashboard available to doctors and health professionals. The aim of this project is to make patient monitoring easier and more efficient, allowing for more accurate and timely diagnoses.
+Using this application we can easily monitor all the API or Service healthcheck and keep track of their status . This application will monitor preodically based on preconfigured time intervals in config file . Dashboard will show the status check mark with clour code and status code message . In case of any error we can view the Error message .
+
+Architecture :
+Dashboard --> (ReactJS) --> (NodeJS) --> Target API's 
 
 ## Features
 
@@ -9,28 +12,5 @@ Healthmate is a real-time web application made using ReactJS, NodeJS, ExpressJS,
 * Secure login page for authorized access to patient data and monitoring dashboard
 * Patient data analytics and visualization for trend analysis and forecasting
 * Remote patient monitoring capabilities for home healthcare services
-* Utilizes Raspberry Pi, an affordable and compact IoT device, for easy and efficient data collection and transmission.
 
-## Technologies Used
 
-* ReactJS
-* NodeJS
-* ExpressJS
-* MongoDB
-* WebSockets
-* Raspberry Pi
-* Python (used in raspberry pi to collect and transmit sensor data)
-
-## Screenshots
-
-![Login Page](./assets/SHMS_Login.png)
-*Figure 1: Login Page*
-
-![Monitoring Dashboard](./assets/SHMS_Dashboard_Online.png)
-*Figure 2: Monitoring Dashboard*
-
-![IoT Device Setup](./assets/SHMS_IoT_Device_Setup.png)
-*Figure 3: IoT Device Setup*
-
-![Server PM2 Overview](./assets/SHMS_Server_PM2_Overview.png)
-*Figure 4: Server PM2 Overview*
