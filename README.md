@@ -1,4 +1,4 @@
-# Healthmate-Real Time Health Monitoring Dashboard
+# Healthmate-Real Time Health Monitoring Dashboard 
 
 Healthmate is a real-time web application made using ReactJS, NodeJS, ExpressJS, and MongoDB. The system utilizes an IoT device (Raspberry Pi) to collect vital data such as heart rate, oxygen saturation, body temperature from the patient and transmits the data to the Node server via WebSockets which is then displayed on the monitoring dashboard available to doctors and health professionals. The aim of this project is to make patient monitoring easier and more efficient, allowing for more accurate and timely diagnoses.
 
@@ -25,6 +25,9 @@ Healthmate is a real-time web application made using ReactJS, NodeJS, ExpressJS,
 
 ![Login Page](./assets/SHMS_Login.png)
 *Figure 1: Login Page*
+
+![Monitoring Dashboard](./assets/SHMS_Dashboard_Online.png)
+*Figure 2: Monitoring Dashboard*
 
 ![IoT Device Setup](./assets/SHMS_IoT_Device_Setup.png)
 *Figure 3: IoT Device Setup*
