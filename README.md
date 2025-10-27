@@ -27,7 +27,7 @@ Healthmate is a real-time web application made using ReactJS, NodeJS, ExpressJS,
 *Figure 1: Login Page*
 
 ![IoT Device Setup](./assets/SHMS_IoT_Device_Setup.png)
-*Figure 3: IoT Device Setup*
+*Figure 2: IoT Device Setup*
 
 
 ## Installation & Testing
